@@ -1,0 +1,50 @@
+html, body {
+    font-family: -apple-system,BlinkMacSystemFont,'Montserrat',Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.myfont {
+    font-family: 'Lobster Two', cursive;
+}
+
+.navbar {
+    opacity: .8;
+}
+
+.nav-dash:after {
+    content: "--";
+    margin: 0 1.2em 0 1em;
+}
+
+.nav-item {
+    letter-spacing: .2em;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/200721.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 55em;
+}
+
+.about {
+    background-color: #fff;
+    width: 60rem;
+    position: relative;
+    top: -5em;
+    z-index: 1;
+}
+
+#quote {
+    position: relative;
+    top: -10em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/200721.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 25em;
+}
+
+#menu {
+    position: relative;
+    top: -6em;
+}
