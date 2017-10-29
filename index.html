@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#575b5f">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#575b5f;">
         <div class="container py-2">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" class="img-fluid">
@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto text-uppercase" style="font-size:14px">
+                <div class="navbar-nav ml-auto text-uppercase mt-3 mt-lg-0" style="font-size:.87em;">
                     <a class="nav-item nav-link nav-dash active px-0" href="#">welocome
                         <span class="sr-only">(current)</span>
                     </a>
@@ -39,14 +39,14 @@
                     <a class="nav-item nav-link nav-dash px-0" href="#">video tour</a>
                     <a class="nav-item nav-link nav-dash px-0" href="#">contact</a>
                 </div>
-                <div>
-                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none">
+                <div class="mt-2 mt-lg-0">
+                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none;">
                         <i class="fa fa-facebook-official" aria-hidden="true"></i>
                     </a>
-                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none">
+                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none;">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
-                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none">
+                    <a class="d-inline pr-3 text-light" href="#" style="text-decoration:none;">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -56,11 +56,11 @@
 
     <!-- HERO -->
     <section id="hero">
-        <div class="container text-white text-center d-flex justify-content-center align-items-center" style="height:100%">
-            <div>
-                <div class="display-2 display-md-3 myfont">It's a Food Adventure.</div>
-                <div class="my-4" style="font-size:2em;letter-spacing:.8em;">-------</div>
-                <p style="font-size:1.4em;letter-spacing: 2px;">You'll Never Put A Better
+        <div class="d-flex justify-content-center align-items-center" style="height:100%;">
+            <div class="container text-white text-center">
+                <div class="display-2 myfont mb-md-0 mb-3">It's a Food Adventure.</div>
+                <div class="my-4 d-none d-md-block" style="font-size:2em;letter-spacing:.8em;">-------</div>
+                <p>You'll Never Put A Better
                     <br> Bit Of Food on Your Knife.</p>
                 <a class="btn btn-dark btn-lg rounded-0 mt-4" href="#" role="button" style="width:10em;">OUR MENU</a>
             </div>
@@ -71,15 +71,19 @@
     <section>
         <div class="container d-flex justify-content-center">
             <div class="about row">
-                <div class="col-md-6 p-0">
-                    <img class="img-fluid rounded-0" src="img/352895.jpg" alt="">
+                <div class="col-md-6 p-0 d-none d-md-block">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/352895.jpg);background-size:cover;background-position:center;"></div>
                 </div>
                 <div class="col-md-6 p-5">
-                    <div class="h2 myfont" style="color: #28374b;">Story Of Us</div>
-                    <div class="my-2" style="font-size:1.4em;letter-spacing:.6em;">----</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero iusto ab cum itaque ea quos tempora
-                        repellendus nostrum! Atque.</p>
-                    <a href="#" class="btn btn-dark rounded-0 mt-5" style="width:10em;">MORE</a>
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-4">
+                            <h4 class="card-titl h2 myfont" style="color: #28374b;">Story Of Us</h4>
+                            <p class="card-text my-2" style="font-size:1.4em;letter-spacing:.6em;">----</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero iusto ab cum itaque ea
+                                quos tempora repellendus nostrum! Atque.</p>
+                            <a href="#" class="btn btn-dark rounded-0 mt-5" style="width:10em;">MORE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,8 +91,8 @@
 
     <!-- QUOTE -->
     <section id="quote">
-        <div class="container d-flex justify-content-center align-items-center" style="height:100%">
-            <div class="text-white text-center mt-5">
+        <div class="container d-flex justify-content-center align-items-center" style="height:100%;">
+            <div class="text-white text-center mt-md-5 mt-3">
                 <p class="h4 my-3" style="letter-spacing:.2em;">“THE MOST ROMANTIC RESTAURANT OUT THERE”</p>
                 <p class="h4 myfont">John Doe</p>
             </div>
@@ -99,13 +103,13 @@
     <section id="menu">
         <div class="container text-center">
             <div class="h2 myfont mb-5 pb-3" style="color: #28374b;">We Present You Our Menu</div>
-            <div class="row">
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/159066.jpg);background-size: cover;background-position: center;">
+            <div class="row text-white">
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/159066.jpg);background-size:cover;background-position:center;">
                     </div>
                 </div>
                 <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
                         <div class="card-body p-5">
                             <h4 class="card-titl myfont">Pizza Margarita</h4>
                             <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
@@ -113,41 +117,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/140505.jpg);background-size: cover;background-position: center;">
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/140505.jpg);background-size:cover;background-position:center;">
                     </div>
                 </div>
                 <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
-                        <div class="card-body p-5">
-                            <h4 class="card-titl myfont">Pizza Margarita</h4>
-                            <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
-                            <p class="card-text h4 myfont">19,99$</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row d-flex flex-row-reverse">
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/192345.jpg);background-size: cover;background-position: center;">
-                    </div>
-                </div>
-                <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
-                        <div class="card-body p-5">
-                            <h4 class="card-titl myfont">Pizza Margarita</h4>
-                            <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
-                            <p class="card-text h4 myfont">19,99$</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/338868.jpg);background-size: cover;background-position: center;">
-                    </div>
-                </div>
-                <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
                         <div class="card-body p-5">
                             <h4 class="card-titl myfont">Pizza Margarita</h4>
                             <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
@@ -157,13 +132,13 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/24947.jpg);background-size: cover;background-position: center;">
+            <div class="row text-white d-flex flex-row-reverse">
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/192345.jpg);background-size:cover;background-position:center;">
                     </div>
                 </div>
                 <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
                         <div class="card-body p-5">
                             <h4 class="card-titl myfont">Pizza Margarita</h4>
                             <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
@@ -171,22 +146,152 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 p-0" style="min-height:12em">
-                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/63916.jpg);background-size: cover;background-position: center;">
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/338868.jpg);background-size:cover;background-position:center;">
                     </div>
                 </div>
                 <div class="col-lg-3 p-0">
-                    <div class="card border-0 h-100">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
                         <div class="card-body p-5">
                             <h4 class="card-titl myfont">Pizza Margarita</h4>
                             <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
                             <p class="card-text h4 myfont">19,99$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-white">
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/24947.jpg);background-size:cover;background-position:center;">
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
+                        <div class="card-body p-5">
+                            <h4 class="card-titl myfont">Pizza Margarita</h4>
+                            <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
+                            <p class="card-text h4 myfont">19,99$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0" style="min-height:12em;">
+                    <div class="card border-0 rounded-0 h-100" style="background-image:url(img/63916.jpg);background-size:cover;background-position:center;">
+                    </div>
+                </div>
+                <div class="col-lg-3 p-0">
+                    <div class="card border-0 rounded-0 h-100" style="background-color:#9fb0a5;">
+                        <div class="card-body p-5">
+                            <h4 class="card-titl myfont">Pizza Margarita</h4>
+                            <p class="card-text" style="font-size:.84em;line-height:2.1;letter-spacing:.1em;">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula.</p>
+                            <p class="card-text h4 myfont">19,99$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h2 myfont mt-5 mb-4" style="color: #28374b;">Show Me More</div>
+            <a href="#" class="text-dark">
+                <i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+        <div class="container-fluid p-0 d-flex align-items-center justify-content-center">
+            <div class="fullscreen">
+                <video class="d-none d-md-block" src="img/food.mp4" autoplay loop></video>
+            </div>
+            <div class="overlay"></div>
+            <div class="text-white text-center p-1" style="z-index:1;">
+                <p class="mb-5" style="font-size:1.2em;letter-spacing:.2em;">See it for yourself</p>
+                <a href="https://youtu.be/-3L62ZmYqRA" target="_blank" class="text-white">
+                    <i class="fa fa-play fa-3x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter">
+        <div class="container text-center">
+            <div class="h2 myfont mb-5" style="color: #28374b;">Sign up to daye</div>
+            <p class="w-75 mx-auto" style="font-size:.9em;line-height:2;letter-spacing:.12em;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quia eveniet exercitationem blanditiis ad voluptates
+                vero officiis veritatis magnam aperiam!</p>
+            <div class="row mt-5 mb-4">
+                <div class="col-md-6 offset-md-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-lg rounded-0" placeholder="Email Address" aria-label="Email Address">
+                        <span class="input-group-btn">
+                            <button class="btn btn-dark rounded-0 px-md-5" type="button">Subscribe</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card border-0">
+                    <img class="card-img rounded-0 d-none d-sm-block" src="img/61567.jpg" alt="Card image cap">
+                </div>
+                <div class="card border-0 d-none d-md-block">
+                    <img class="card-img rounded-0" src="img/60314.jpg" alt="Card image cap">
+                </div>
+                <div class="card border-0 d-none d-md-block">
+                    <img class="card-img rounded-0" src="img/358926.jpg" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div style="background:#27364a;padding:6em 0 2em;">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h4 class="pb-4 text-uppercase" style="letter-spacing:.12em;">locations</h4>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-3 mb-sm-0" style="font-size:.9em;line-height:2;letter-spacing:.12em;">
+                                678 Some Awesome
+                                <br> Brooklyn,NY -112233
+                            </div>
+                            <div class="col-12 col-sm-6" style="font-size:.9em;line-height:2;letter-spacing:.12em;">
+                                678 Some Awesome
+                                <br> Brooklyn,NY -112233
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h4 class="pb-4 text-uppercase" style="letter-spacing:.12em;">hours</h4>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-3 mb-sm-0" style="font-size:.9em;line-height:2;letter-spacing:.12em;">
+                                Monday - Thursday
+                                <br> 08:00am - 11:00pm
+                            </div>
+                            <div class="col-12 col-sm-6" style="font-size:.9em;line-height:2;letter-spacing:.12em;">
+                                Friday - Saturday
+                                <br> 08:00am - 12:00pm
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div id="bottomfooter" style="background:#151d25;">
+            <div class="container text-white text-center py-4 d-md-flex align-items-center" style="font-size:.8em;letter-spacing:.12em;">
+                <div>Copyright 2017 © Foody - All Rights Reserved</div>
+                <div class="ml-auto mt-md-0 mt-3">
+                    <a class="pr-3 text-light" href="#" style="font-size:2em;text-decoration:none;">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    </a>
+                    <a class="pr-3 text-light" href="#" style="font-size:2em;text-decoration:none;">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a class="pr-3 text-light" href="#" style="font-size:2em;text-decoration:none;">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
